@@ -1,0 +1,29 @@
+{
+  "name": "p5-server",
+  "version": "1.0.0",
+  "description": "Hot Loading P5 Sketch",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack-dev-server",
+    "build:prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/christiankastner/hotloading-p5.git"
+  },
+  "author": "Christian Kastner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christiankastner/hotloading-p5/issues"
+  },
+  "homepage": "https://github.com/christiankastner/hotloading-p5#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "p5": "^1.0.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
